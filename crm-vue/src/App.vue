@@ -1,11 +1,12 @@
 <template>
   <nav>
-
+    <button> TEST</button>
   </nav>
   <router-view/>
 </template>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <style lang="scss">
+@import 'assets/index.css';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
